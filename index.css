@@ -1,0 +1,195 @@
+/* # Desktop */
+@media only screen and (min-width:769px){
+    body{
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+    .container{
+        /* text-align: center; */
+        width: 200%;
+        /* background-color: red; */
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+    .main1{
+        width: 100%;
+        height: 40vh;
+        display: block;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        background-color: rgba(138, 172, 236, 0.829);
+        /* justify-content: center;
+        justify-items: center;
+        justify-self: center; */
+
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+    .label{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    label, input{
+        /* background-color: palevioletred; */
+        text-align: left;
+        font-size: 22px;
+    }
+    button{
+        margin-top: 20px;
+        border-radius: 8px;
+        width: 200px;
+        border: solid 1px white;
+        height: 40px;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        background-color: blueviolet;
+    }
+    button:hover{
+        color: rgba(252, 255, 252, 0.61);
+    }
+}
+
+/* # Phone */
+@media screen and (max-width:320px) {
+    body{
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+    .container{
+        /* text-align: center; */
+        /* background-color: red; */
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+    .main1{
+        /* margin: 10px; */
+        padding: 10px;
+        display: block;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        background-color: rgba(138, 172, 236, 0.829);
+        /* justify-content: center;
+        justify-items: center;
+        justify-self: center; */
+
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+    .label{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    label, input{
+        /* background-color: palevioletred; */
+        text-align: left;
+        font-size: 22px;
+    }
+    button{
+        margin-top: 20px;
+        border-radius: 8px;
+        width: 200px;
+        border: solid 1px white;
+        height: 40px;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        background-color: blueviolet;
+    }
+    button:hover{
+        color: rgba(252, 255, 252, 0.61);
+    }
+
+}
+
+
+/* # Tablet */
+@media only screen and (min-width:321px) and (max-width:768px){
+    body{
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+    .container{
+        /* text-align: center; */
+        /* background-color: red; */
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+    .main1{
+        
+        padding: 20px;
+        display: block;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        background-color: rgba(138, 172, 236, 0.829);
+        /* justify-content: center;
+        justify-items: center;
+        justify-self: center; */
+
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+    .label{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    label, input{
+        /* background-color: palevioletred; */
+        text-align: left;
+        font-size: 22px;
+    }
+    button{
+        margin-top: 20px;
+        border-radius: 8px;
+        width: 200px;
+        border: solid 1px white;
+        height: 40px;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        background-color: blueviolet;
+    }
+    button:hover{
+        color: rgba(252, 255, 252, 0.61);
+    }
+
+}
