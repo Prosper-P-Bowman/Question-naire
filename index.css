@@ -61,6 +61,18 @@
     button:hover{
         color: rgba(252, 255, 252, 0.61);
     }
+    .demo{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
 }
 
 /* # Phone */
